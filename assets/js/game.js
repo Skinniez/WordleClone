@@ -199,7 +199,7 @@ function addLogo(){
 	logo.className = 'logo';
 	logo.addEventListener("click", logoClick);
 
-	let domName = 'WORDLED';
+	let domName = 'WORDLE';
 	for(i = 0; i < domName.length; i++){
 		let spanClass = (i == 0 || i % 2 == 0)? 'logo_green' : 'logo_gold';
 		let logoSpan = document.createElement('span');
